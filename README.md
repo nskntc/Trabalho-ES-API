@@ -3,13 +3,13 @@
 Clone o projeto
 
 ```bash
-  git clone https://github.com/nskntc/Food-Explorer-API
+  git clone https://github.com/nskntc/Trabalho-ES-API
 ```
 
 Navegue para o diretório do projeto
 
 ```bash
-  cd Food-Explorer-API
+  cd Trabalho-ES-API
 ```
 
 Instale as dependencias
