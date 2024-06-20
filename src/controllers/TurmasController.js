@@ -5,6 +5,8 @@ class TurmasController {
     async create(request, response){
         const { materia, horario, capacidade, professor, salas } = request.body
 
+        if(!materia || !horario || !capacidade || !professor || !salas) throw new AppError("Informações faltando, impossível criar turma!", 401)
+
         if(capacidade < 1) throw new AppError("A capacidade deve ser um número positivo!", 401)
 
         const professorIndisponivel = await knex("turmas").where({ horario, professor }).first()
