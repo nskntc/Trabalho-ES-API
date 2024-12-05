@@ -1,24 +1,25 @@
-#Para rodar em sua máquina
+# Para executar em sua máquina
+## A versão do node de ser maior que v10.24.1
 
-Clone o projeto
+1. Clone o projeto
 
 ```bash
   git clone https://github.com/nskntc/Trabalho-ES-API
 ```
 
-Navegue para o diretório do projeto
+2. Navegue para o diretório do projeto
 
 ```bash
   cd Trabalho-ES-API
 ```
 
-Instale as dependencias
+3. Instale as dependencias
 
 ```bash
   npm install
 ```
 
-Rode o server
+4. Rode o server
 
 ```bash
   npm run dev
